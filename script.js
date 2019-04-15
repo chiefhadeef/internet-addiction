@@ -47,7 +47,7 @@ function score() {
 
     if (addictiveness > 1) {
         range = 2;
-    }
+    } 
 
     
 
