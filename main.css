@@ -1,50 +1,77 @@
 body {
-    font-family:Arial, Helvetica, sans-serif;;
-    color: #555;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.5em;
+    text-align: center;
 }
 
 p {
   margin: 1em;
+  text-align: center;
 }
 
 h1 {
-    margin-top: 1em;
+  margin-top: 1em;
   padding-top: 1em;
- 
-  font-family: Arial, Helvetica, sans-serif; color: #333;
+  text-align: left;
 }
 
 h2 {
     margin-top: 1em;
     padding-top: 1em;
-    color: #333;
 }
 
 h3 {
   margin-top: 1em;
   padding-top: 1em;
-  color: #333;
 }
 
 
 a {
-    color: green;
+    color: #6320EE;
 }
 
-strong{
-  color: #009dff;
+a:hover {
+  color: #EE4266;
 }
 
+form {
+  text-align: center;
+}
 
+ul {
+  text-align: left;
+}
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 .homepage {
-  font-family: Arial, Helvetica, sans-serif;
   margin: 0 auto;
   max-width: 50em;
   text-align: center;
   line-height: 1.5em;
-  color: #555;
 }
 
+#quiz-title {
+  text-align: center;
+}
+
+#heading {
+  text-align: left;
+}
+
+.btn {
+  margin-top: 2em;
+}
+
+.about {
+  max-width: 40em;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+  line-height: 1.75em;
+}
 
 
 
