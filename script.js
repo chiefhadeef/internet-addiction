@@ -63,18 +63,14 @@ function score() {
     
     document.querySelector("#after-submit").style.visibility = "visibile";
     if (range === 0) {
-        document.querySelector("#message").innerHTML = levels[range];
-        document.getElementById("number-correct").innerHTML = `Based off of this quiz, you appear to be addicted. Experts believe that people who are addicted use the internet as a coping mechanism or 
-    substitute for an integral aspect of their lives (connection, feeling of mastery, gratification). 
-    They believe that it is important to find and treat this root problem to treat addiction. ` + `<p>For intensive care consider <a href="https://www.netaddictionrecovery.com/">reSTART</a>, an internet rehab center which can help patients suffering with more severe types of addiction.
+        document.getElementById("number-correct").innerHTML = `This quiz suggests that you may be  exhibiting
+        symptoms of internet addiction. Below are some resources if you feel like internet addiction may be affecting your life. ` + `<p><br>For intensive care consider <a href="https://www.netaddictionrecovery.com/">reSTART</a>, an internet rehab center which can help patients suffering with more severe types of addiction.
     <br><br>Addiction is impossible to overcome alone. Consider finding a therapist at sites like <a href="https://www.psychologytoday.com/us">Psychology Today</a>
   <br><br>If you are suffering from depression or suicidal thoughts, please visit and call the <a href="https://suicidepreventionlifeline.org/">Suicide Hotline,</a></p>`;
     } else {
-        document.querySelector("#message").innerHTML = levels[range];
-        document.getElementById("number-correct").innerHTML = `Although, keep in mind the symptoms of Internet Addiction as listed on the homepage. However, this quiz is not a substitute for proper diagnosis.`;
+        document.getElementById("number-correct").innerHTML = `This quiz suggests that you may not be exhibiting symtpoms of internet addiction.`;
+        
     }
 }
-`Based off of this quiz, you appear to be addicted. Experts believe that people who are addicted use the internet as a coping mechanism or 
-substitute for an integral aspect of their lives (connection, feeling of mastery, gratification). 
-They believe that it is important to find and treat this root problem to treat addiction. `
+
 document.querySelector("#submit-button").addEventListener("click", score);

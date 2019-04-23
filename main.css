@@ -1,10 +1,16 @@
+.references{
+  text-align: left;
+  margin-top: 6em;
+  
+}
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.5em;
     text-align: center;
 }
 
-p {
+.centered {
   margin: 1em;
   text-align: center;
 }
@@ -53,14 +59,6 @@ nav {
   line-height: 1.5em;
 }
 
-#quiz-title {
-  text-align: center;
-}
-
-#heading {
-  text-align: left;
-}
-
 .btn {
   margin-top: 2em;
 }
@@ -73,5 +71,16 @@ nav {
   line-height: 1.75em;
 }
 
+.hanging {
+  padding-left: 2.5em; 
+  text-indent: -2.5em;
+}
 
+#quiz-title {
+  text-align: center;
+}
+
+#heading {
+  text-align: left;
+}
 
